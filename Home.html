@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dela Cruz HomePage</title>
+  <link rel="stylesheet" href="HomeStyle.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="AdiLi logo">
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About Us</a></li>
+          <li class="mobile-only"><a href="#">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="nav-right">
+      <form class="search" action="#">
+        <button type="button" aria-label="Search">
+          <img src="assets/search.png" alt="">
+        </button>
+        <input type="search" placeholder="Search..." aria-label="Search">
+      </form>
+      <a href="#" class="btn btn-light desktop-only">Sign In</a>
+      <a href="#" class="btn btn-dark">Get Started</a>
+    </div>
+
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-label="Toggle menu">
+    <label for="menu-toggle" class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-bg" src="assets/background.jpg" alt="">
+
+      <div class="overlay">
+        <div class="content">
+          <p class="badge">Built for business owners</p>
+
+          <h1>Your Future, <span>Our Mission</span></h1>
+
+          <div class="glass">
+            <p>A smart platform where you can track your
+              business growth, connect, and collaborate with
+              fellow business owners to achieve success together.</p>
+          </div>
+
+          <form class="signup" action="#">
+            <input type="email" placeholder="Enter your email address" aria-label="Email address" required>
+            <button type="submit" class="btn btn-dark">Get Started Free</button>
+          </form>
+
+          <div class="meta">
+            <a href="#" class="learn">Learn More <img src="assets/arrow.png" alt=""></a>
+            <ul class="points">
+              <li><img src="assets/check.png" alt=""> Track growth</li>
+              <li><img src="assets/check.png" alt=""> Connect</li>
+              <li><img src="assets/check.png" alt=""> Collaborate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
